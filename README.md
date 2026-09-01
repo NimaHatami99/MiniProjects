@@ -107,3 +107,9 @@ Implementation of an end-to-end machine learning pipeline for predicting Peugeot
 
 The project includes automated data collection through web scraping, feature extraction from vehicle advertisements, data preprocessing, machine learning model training, and price prediction. A prediction system is developed to estimate car prices and evaluate whether a seller's suggested price is reasonable based on learned market patterns.
 
+### 15. Credit Card Fraud Detection Using SVM
+
+Implementation of anomaly detection and fraud classification models for identifying fraudulent financial transactions using Support Vector Machines.
+
+The project applies supervised SVM classification and One-Class SVM techniques to detect fraudulent transactions in an imbalanced credit card dataset. The workflow includes data preprocessing, model training, hyperparameter tuning, anomaly detection, and performance evaluation using appropriate classification metrics.
+
