@@ -34,3 +34,9 @@ Implementation of feature-based image alignment and panorama generation techniqu
 
 The project explores image registration using SIFT feature extraction, feature matching, homography estimation, and perspective transformation to align images from different viewpoints. Additionally, an image stitching pipeline is implemented using feature detection, RANSAC-based transformation estimation, and image blending to create panoramic views.
 
+### 6. Feature Extraction and Image Classification
+
+Implementation of computer vision methods for texture analysis, semantic segmentation, and biometric image classification.
+
+The project explores feature extraction techniques including GLCM and LBP for image understanding tasks. The first part applies texture-based feature extraction and clustering methods for unsupervised semantic image segmentation. The second part uses LBP-based feature extraction combined with classification algorithms for fingerprint spoof detection.
+
