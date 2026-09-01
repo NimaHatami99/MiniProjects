@@ -28,3 +28,9 @@ Implementation of computer vision techniques for motion analysis and object trac
 
 The project explores dense and sparse optical flow methods for motion estimation and compares their performance for object tracking. Additionally, background subtraction is combined with optical flow for improved tracking, and feature-based motion tracking is implemented using Shi-Tomasi corner detection and Kanade-Lucas-Tomasi (KLT) optical flow.
 
+### 5. Image Registration and Stitching
+
+Implementation of feature-based image alignment and panorama generation techniques in computer vision.
+
+The project explores image registration using SIFT feature extraction, feature matching, homography estimation, and perspective transformation to align images from different viewpoints. Additionally, an image stitching pipeline is implemented using feature detection, RANSAC-based transformation estimation, and image blending to create panoramic views.
+
