@@ -1,0 +1,17 @@
+================rpi3 master===========esp32 slave==========================================================
+
+sudo apt update                               # refresh package list
+sudo apt install -y cmake build-essential     # CMake + GCC, make, etc. 
+cmake --version 
+git clone https://github.com/eclipse-paho/paho.mqtt.c.git
+cd paho.mqtt.c
+cmake -B build -DPAHO_WITH_SSL=OFF -DPAHO_BUILD_STATIC=ON .
+cmake --build build        # build and install
+sudo cmake --install build
+sudo ldconfig                                               # refresh linker cache
+
+================rpi3 slave=============esp32 master======================================================== 
+
+esp32 Nick O’Leary “knolleary / PubSubClient”  https://github.com/knolleary/pubsubclient
+
+
