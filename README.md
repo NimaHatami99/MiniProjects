@@ -73,7 +73,7 @@ Key concepts:
 - MapReduce algorithms
 - Performance analysis with different processing cores
 
-## 11. Neural Cell Segmentation with Mask R-CNN
+### 11. Neural Cell Segmentation with Mask R-CNN
 
 Changing the backbone of instance segmentation model for segmenting neural cells in microscopic images using Mask R-CNN.
 
