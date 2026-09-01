@@ -22,3 +22,9 @@ Implementation of a computer vision project focused on camera calibration and 3D
 
 The project applies Zhang's camera calibration algorithm to estimate a camera's intrinsic and extrinsic parameters using chessboard calibration patterns. The workflow includes image-based corner detection, calibration parameter estimation, validation of camera pose, and exploration of 3D position recovery from monocular images.
 
+### 4. Optical Flow and Object Tracking
+
+Implementation of computer vision techniques for motion analysis and object tracking using optical flow.
+
+The project explores dense and sparse optical flow methods for motion estimation and compares their performance for object tracking. Additionally, background subtraction is combined with optical flow for improved tracking, and feature-based motion tracking is implemented using Shi-Tomasi corner detection and Kanade-Lucas-Tomasi (KLT) optical flow.
+
