@@ -101,3 +101,9 @@ Implementation of a real-time face recognition system using classical computer v
 
 The project develops a webcam-based authentication system that identifies authorized users without using deep learning models. The workflow includes collecting facial image data, extracting face features, training a traditional recognition model, and verifying user identity through similarity-based matching over consecutive webcam frames.
 
+### 14. Peugeot 206 Price Prediction Using Web Scraping and Machine Learning
+
+Implementation of an end-to-end machine learning pipeline for predicting Peugeot 206 Type 2 prices using real-world car advertisement data.
+
+The project includes automated data collection through web scraping, feature extraction from vehicle advertisements, data preprocessing, machine learning model training, and price prediction. A prediction system is developed to estimate car prices and evaluate whether a seller's suggested price is reasonable based on learned market patterns.
+
