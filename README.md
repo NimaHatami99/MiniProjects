@@ -95,3 +95,9 @@ Key concepts:
 - Ensemble learning
 - Text classification
 
+### 13. Traditional Face Recognition and Authentication
+
+Implementation of a real-time face recognition system using classical computer vision and machine learning techniques.
+
+The project develops a webcam-based authentication system that identifies authorized users without using deep learning models. The workflow includes collecting facial image data, extracting face features, training a traditional recognition model, and verifying user identity through similarity-based matching over consecutive webcam frames.
+
