@@ -16,3 +16,9 @@ Developement of classification experiments comparing individual machine learning
 
 This project evaluates multiple classification algorithms, including KNN, SVM, AdaBoost, XGBoost, Naive Bayes, and Random Forest, and analyzes their performance individually and in ensemble configurations. Additionally, an MLP-based classifier is developed and optimized through architecture selection and hyperparameter tuning to improve classification performance.
 
+## 3. Camera Calibration and Pose Estimation
+
+Implementation of a computer vision project focused on camera calibration and 3D geometry analysis.
+
+The project applies Zhang's camera calibration algorithm to estimate a camera's intrinsic and extrinsic parameters using chessboard calibration patterns. The workflow includes image-based corner detection, calibration parameter estimation, validation of camera pose, and exploration of 3D position recovery from monocular images.
+
