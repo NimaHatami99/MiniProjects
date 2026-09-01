@@ -73,3 +73,9 @@ Key concepts:
 - MapReduce algorithms
 - Performance analysis with different processing cores
 
+## 11. Neural Cell Segmentation with Mask R-CNN
+
+Changing the backbone of instance segmentation model for segmenting neural cells in microscopic images using Mask R-CNN.
+
+The project evaluates and compares two backbone architectures, ResNet50 and CSPResNet50, within the Mask R-CNN framework for neural cell instance segmentation. The workflow includes dataset preparation, mask generation, data augmentation, model training, inference, and performance evaluation using segmentation metrics.
+
