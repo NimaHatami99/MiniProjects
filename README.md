@@ -52,3 +52,9 @@ Implementation of a computer vision system for real-time Sudoku detection, recog
 
 The project applies edge detection and Hough transform methods to detect Sudoku grid structures from camera frames, extract individual cells, and recognize handwritten or printed digits using generalized Hough-based pattern matching. The detected puzzle is then solved and the solution is overlaid onto the original image.
 
+### 9. Image Processing and Preprocessing Techniques
+
+Implementation of fundamental image processing methods for color analysis, image quantization, enhancement, and background modeling.
+
+The project explores various image processing techniques, including color space analysis for image-based measurement, K-means-based color quantization, histogram equalization for image enhancement, and background estimation through image averaging and threshold-based preprocessing.
+
