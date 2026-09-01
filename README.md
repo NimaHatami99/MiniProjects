@@ -79,3 +79,19 @@ Changing the backbone of instance segmentation model for segmenting neural cells
 
 The project evaluates and compares two backbone architectures, ResNet50 and CSPResNet50, within the Mask R-CNN framework for neural cell instance segmentation. The workflow includes dataset preparation, mask generation, data augmentation, model training, inference, and performance evaluation using segmentation metrics.
 
+### 12. Hamshahri Newspaper Text Mining and Classification
+
+Implementation of a natural language processing pipeline for analyzing and classifying Persian newspaper articles from the Hamshahri dataset.
+
+The project covers the complete text mining workflow, including dataset processing, text preprocessing, feature extraction using TF-IDF, dimensionality reduction, unsupervised clustering, and supervised classification. Multiple machine learning models are evaluated and combined through an ensemble voting approach for document category prediction.
+
+Key concepts:
+- Natural language processing (NLP)
+- Persian text preprocessing
+- TF-IDF feature extraction
+- Dimensionality reduction
+- Unsupervised clustering
+- Machine learning classification
+- Ensemble learning
+- Text classification
+
