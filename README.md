@@ -58,3 +58,18 @@ Implementation of fundamental image processing methods for color analysis, image
 
 The project explores various image processing techniques, including color space analysis for image-based measurement, K-means-based color quantization, histogram equalization for image enhancement, and background estimation through image averaging and threshold-based preprocessing.
 
+### 10. Big Data Analytics with Apache Spark
+
+Implementation of distributed data processing and analytics tasks using Apache Spark and PySpark.
+
+The project covers multiple big data processing applications, including natural language processing on large text datasets, document similarity analysis, clustering using K-means++, and distributed matrix operations using MapReduce.
+
+Key concepts:
+- Apache Spark and PySpark
+- Distributed data processing
+- Natural language processing (NLP)
+- Text analysis and similarity measurement
+- K-means++ clustering
+- MapReduce algorithms
+- Performance analysis with different processing cores
+
