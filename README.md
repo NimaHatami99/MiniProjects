@@ -40,3 +40,9 @@ Implementation of computer vision methods for texture analysis, semantic segment
 
 The project explores feature extraction techniques including GLCM and LBP for image understanding tasks. The first part applies texture-based feature extraction and clustering methods for unsupervised semantic image segmentation. The second part uses LBP-based feature extraction combined with classification algorithms for fingerprint spoof detection.
 
+### 7. Image Segmentation Techniques
+
+Implementation of computer vision segmentation methods for extracting and separating regions of interest in images.
+
+The project explores active contour models for object boundary detection and image segmentation, along with threshold-based segmentation techniques. The implementation includes contour-based segmentation using active contours and automatic threshold selection using Otsu's method for separating foreground and background regions.
+
