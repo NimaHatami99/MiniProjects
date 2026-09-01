@@ -46,3 +46,9 @@ Implementation of computer vision segmentation methods for extracting and separa
 
 The project explores active contour models for object boundary detection and image segmentation, along with threshold-based segmentation techniques. The implementation includes contour-based segmentation using active contours and automatic threshold selection using Otsu's method for separating foreground and background regions.
 
+### 8. Sudoku Solver Using Hough Transform
+
+Implementation of a computer vision system for real-time Sudoku detection, recognition, and solving using image processing techniques.
+
+The project applies edge detection and Hough transform methods to detect Sudoku grid structures from camera frames, extract individual cells, and recognize handwritten or printed digits using generalized Hough-based pattern matching. The detected puzzle is then solved and the solution is overlaid onto the original image.
+
