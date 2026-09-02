@@ -1,0 +1,25 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "10:27:54 07/20/2021 "
+* "netlist" "project1_AC.sp "
+* "runtitle" "ac simulation of a pmos input single-ended diff pair"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 = 700.2182m       
++ 2 = 915.6800m       
++ 3 = 813.6491m       
++ 4 = 492.5742m       
++ 5 = 516.3019m       
++ dd =   1.2000        
++ in = 400.0000m       
++ r = 399.5204m       
++ ss =   0.            
++ vin+ = 400.0000m       
++ vin- = 408.5878m       
++ vout = 599.5204m       
+***   END: Saved Operating Point ***                     

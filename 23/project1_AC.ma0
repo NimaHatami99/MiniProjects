@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'ac simulation of a pmos input single-ended diff pair'
+ gain             unity_gain       phase_margin     temper          
+ alter#          
+   31.2799         9.396e+08         59.2655          25.0000       
+1               

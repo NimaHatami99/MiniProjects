@@ -1,0 +1,27 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "22:04:49 07/19/2021 "
+* "netlist" "project1_tran.sp "
+* "runtitle" "dc simulation of a pmos input single-ended diff pair"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 = 729.9803m       
++ 2 = 900.0944m       
++ 3 = 813.6484m       
++ 4 = 463.8798m       
++ 5 = 502.1412m       
++ dd =   1.2000        
++ im0 = 405.7852m       
++ input = 450.0000m       
++ ph1 =   0.            
++ ph2 =   1.2000        
++ ss =   0.            
++ vin+ = 400.0000m       
++ vin- = 413.5993m       
++ vout = 405.7852m       
+***   END: Saved Operating Point ***                     
