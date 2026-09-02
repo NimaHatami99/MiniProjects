@@ -119,7 +119,7 @@ Implementation of an image classification pipeline for detecting forest fire and
 
 The project processes forest images through resizing and normalization, extracts image features, and trains a Logistic Regression classifier for binary fire detection. The workflow includes dataset preparation, model training, probability threshold optimization, performance evaluation, and deployment of the trained model for real-time image prediction with visualized confidence scores.
 
-### 17. MNIST Image Denoising
+### 17. MNIST Image Denoising using KNN
 
 Implementation of an image denoising system for restoring corrupted handwritten digit images using machine learning techniques.
 
