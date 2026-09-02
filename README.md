@@ -253,3 +253,20 @@ Design and simulation of an analog front-end circuit for ECG signal acquisition 
 
 This project focuses on designing a one-lead ECG measurement system and implementing the complete analog signal conditioning chain. The circuit includes instrumentation amplification, high-pass and low-pass filtering, notch filtering for power-line noise removal, and right-leg drive circuitry for improved common-mode interference rejection.
 
+### 30. AVR-Based LED Matrix Display Controller
+
+Implementation of a programmable LED matrix display system using AVR microcontroller programming and embedded C.
+
+This project focuses on designing a dynamic LED matrix controller that displays custom patterns using row-column scanning techniques. The system includes timer interrupt-based refreshing, button-controlled pattern modification, and real-time control of displayed pixels.
+
+Main components:
+- AVR microcontroller programming (ATmega32)
+- LED matrix interfacing
+- Row-column scanning technique
+- Timer interrupt implementation
+- Dynamic pattern generation
+- Push-button input control
+- Embedded C programming
+- Proteus circuit simulation
+- Hex file generation and testing
+
