@@ -295,3 +295,9 @@ Main components:
 - Time-delay system analysis
 - MATLAB and Simulink-based control system simulation
 
+### 32. Low-Dropout Voltage Regulator (LDO) Design and Simulation
+
+Design and simulation of a low-dropout voltage regulator with a custom operational amplifier using LTspice and analog circuit design techniques.
+
+This project focuses on designing an LDO voltage regulator capable of generating a stable 3V output with low voltage error under varying input voltages and load conditions. The design includes a feedback control loop, custom operational amplifier, pass transistor stage, and performance evaluation through circuit simulations.
+
