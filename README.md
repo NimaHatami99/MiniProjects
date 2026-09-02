@@ -131,3 +131,9 @@ Implementation of a Persian text classification system for sentiment analysis of
 
 The project analyzes Snappfood user comments and classifies them into positive and negative sentiment categories. The workflow includes Persian text preprocessing, feature extraction, building a Naive Bayes model from scratch, training on labeled reviews, and evaluating classification performance on test data.
 
+### 19. Decision Tree and Ensemble Learning Projects
+
+Collection of machine learning projects focused on classification using decision trees, ensemble methods, and data preprocessing techniques.
+
+The folder includes projects covering student performance prediction, Titanic survival analysis, and data science salary prediction. The implementations involve data preprocessing, feature engineering, decision tree modeling, hyperparameter tuning, pruning, visualization, and hybrid ensemble approaches.
+
