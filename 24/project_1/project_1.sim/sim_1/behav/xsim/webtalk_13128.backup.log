@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Feb  7 11:52:13 2021
+# Process ID: 13128
+# Current directory: E:/terme 7/FPGA/Prj1/9633022_Prj/project_1/project_1.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/terme 7/FPGA/Prj1/9633022_Prj/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/avgfilt_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/terme 7/FPGA/Prj1/9633022_Prj/project_1/project_1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/terme 7/FPGA/Prj1/9633022_Prj/project_1/project_1.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/terme -notrace
+couldn't read file "E:/terme": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Feb  7 11:52:13 2021...

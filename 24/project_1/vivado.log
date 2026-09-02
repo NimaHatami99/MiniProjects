@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Feb 16 10:52:25 2021
+# Process ID: 11340
+# Current directory: E:/terme 7/FPGA/Prj1/9633022_Prj/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1304 E:\terme 7\FPGA\Prj1\9633022_Prj\project_1\project_1.xpr
+# Log file: E:/terme 7/FPGA/Prj1/9633022_Prj/project_1/vivado.log
+# Journal file: E:/terme 7/FPGA/Prj1/9633022_Prj/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/terme 7/FPGA/Prj1/9633022_Prj/project_1/project_1.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:34 . Memory (MB): peak = 763.109 ; gain = 165.996
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Tue Feb 16 10:54:18 2021] Launched synth_1...
+Run output will be captured here: E:/terme 7/FPGA/Prj1/9633022_Prj/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 16 11:00:37 2021...

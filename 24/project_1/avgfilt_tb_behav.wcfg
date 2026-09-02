@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="avgfilt_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="avgfilt_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="193589700000000fs"></ZoomStartTime>
+      <ZoomEndTime time="193601460000001fs"></ZoomEndTime>
+      <Cursor1Time time="193600380000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="114"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/avgfilt_tb/uut/input" type="array">
+      <obj_property name="ElementShortName">input[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/row" type="array">
+      <obj_property name="ElementShortName">row[11:0]</obj_property>
+      <obj_property name="ObjectShortName">row[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/column" type="array">
+      <obj_property name="ElementShortName">column[11:0]</obj_property>
+      <obj_property name="ObjectShortName">column[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/read_en" type="logic">
+      <obj_property name="ElementShortName">read_en</obj_property>
+      <obj_property name="ObjectShortName">read_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/read_flag" type="logic">
+      <obj_property name="ElementShortName">read_flag</obj_property>
+      <obj_property name="ObjectShortName">read_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/output" type="array">
+      <obj_property name="ElementShortName">output[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/state_reg" type="other">
+      <obj_property name="ElementShortName">state_reg</obj_property>
+      <obj_property name="ObjectShortName">state_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/state_next" type="other">
+      <obj_property name="ElementShortName">state_next</obj_property>
+      <obj_property name="ObjectShortName">state_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/row_ctr" type="other">
+      <obj_property name="ElementShortName">row_ctr</obj_property>
+      <obj_property name="ObjectShortName">row_ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/col_ctr" type="other">
+      <obj_property name="ElementShortName">col_ctr</obj_property>
+      <obj_property name="ObjectShortName">col_ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/result" type="array">
+      <obj_property name="ElementShortName">result[11:0]</obj_property>
+      <obj_property name="ObjectShortName">result[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/input_vec1" type="array">
+      <obj_property name="ElementShortName">input_vec1[1:4095][7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_vec1[1:4095][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/input_vec2" type="array">
+      <obj_property name="ElementShortName">input_vec2[1:4095][7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_vec2[1:4095][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/input_vec3" type="array">
+      <obj_property name="ElementShortName">input_vec3[1:4095][7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_vec3[1:4095][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/pixel_add" type="other">
+      <obj_property name="ElementShortName">pixel_add</obj_property>
+      <obj_property name="ObjectShortName">pixel_add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/pix1" type="other">
+      <obj_property name="ElementShortName">pix1</obj_property>
+      <obj_property name="ObjectShortName">pix1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/test" type="other">
+      <obj_property name="ElementShortName">test</obj_property>
+      <obj_property name="ObjectShortName">test</obj_property>
+   </wvobject>
+   <wvobject fp_name="/avgfilt_tb/uut/t" type="logic">
+      <obj_property name="ElementShortName">t</obj_property>
+      <obj_property name="ObjectShortName">t</obj_property>
+   </wvobject>
+</wave_config>
