@@ -313,3 +313,9 @@ Numerical simulation and analysis of neuronal action potentials using the Hodgki
 
 This project focuses on modeling the electrical behavior of a cell membrane by solving the Hodgkin–Huxley differential equations numerically. The effects of external current stimulation, refractory behavior, and different stimulus waveforms are investigated through membrane voltage, ion conductance, and gating variable analysis.
 
+### 35. Power Amplifier and AC/DC Adapter Design
+
+Design and simulation of a complete power amplification system including a power amplifier stage and an AC/DC power supply using analog electronic components.
+
+This project focuses on designing a power amplifier capable of driving a low-resistance load while maintaining signal quality and system efficiency. The design includes an AC/DC adapter for supplying the required DC power and a transistor-based output stage evaluated through circuit simulations.
+
