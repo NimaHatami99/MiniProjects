@@ -1,0 +1,196 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>test1</title><meta name="generator" content="MATLAB 9.5"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2021-02-08"><meta name="DC.source" content="test1.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><pre class="codeinput">clear
+clc
+clf
+img = imread(<span class="string">'photo1.jpg'</span>);
+imshow(img)
+title(<span class="string">'original image'</span>)
+smoothed_img=avgfilt(img);
+figure()
+imshow(smoothed_img)
+title(<span class="string">'smoothed image'</span>);
+figure()
+edge_img_mat=edgefilt(img);
+imshow(edge_img_mat)
+title(<span class="string">'edge of original image'</span>);
+dim=size(img);
+R=reshape((img(:,:,1))',dim(1)*dim(2),1);
+G=reshape((img(:,:,2))',dim(1)*dim(2),1);
+B=reshape((img(:,:,3))',dim(1)*dim(2),1);
+dlmwrite(<span class="string">'R_input_vector.txt'</span>,R)
+dlmwrite(<span class="string">'G_input_vector.txt'</span>,G)
+dlmwrite(<span class="string">'B_input_vector.txt'</span>,B)
+figure()
+R_avg=[dlmread(<span class="string">'R_output_vector_avgfilt.txt'</span>);0];
+G_avg=[dlmread(<span class="string">'G_output_vector_avgfilt.txt'</span>);0];
+B_avg=[dlmread(<span class="string">'B_output_vector_avgfilt.txt'</span>);0];
+R_edge=[dlmread(<span class="string">'R_output_vector_edgefilt.txt'</span>);0];
+G_edge=[dlmread(<span class="string">'G_output_vector_edgefilt.txt'</span>);0];
+B_edge=[dlmread(<span class="string">'B_output_vector_edgefilt.txt'</span>);0];
+R_avg=(reshape(R_avg,603,317))';<span class="comment">%----------------------- image size is (319,605,3)</span>
+G_avg=(reshape(G_avg,603,317))';
+B_avg=(reshape(B_avg,603,317))';
+R_edge=(reshape(R_edge,603,317))';
+G_edge=(reshape(G_edge,603,317))';
+B_edge=(reshape(B_edge,603,317))';
+avg_img=zeros(317,603,3);
+edge_img=zeros(317,603,3);
+avg_img(:,:,1)=R_avg;
+avg_img(:,:,2)=G_avg;
+avg_img(:,:,3)=B_avg;
+edge_img(:,:,1)=R_edge;
+edge_img(:,:,2)=G_edge;
+edge_img(:,:,3)=B_edge;
+avg_img=uint8(avg_img);
+edge_img=uint8(edge_img);
+imshow(avg_img)
+title(<span class="string">'smoothed image - processed by FPGA'</span>);
+figure()
+imshow(edge_img)
+title(<span class="string">'edge of original image - processed by FPGA'</span>)
+<span class="keyword">if</span> isequal(edge_img(:,:,:),edge_img_mat(2:dim(1)-1,2:dim(2)-1,:))
+    disp(<span class="string">"The edge image calculated by matlab is equal to FPGA's output."</span>);
+<span class="keyword">else</span>
+    diff=sum(sum(sum(abs(double(edge_img(:,:,:))-double(edge_img_mat(2:dim(1)-1,2:dim(2)-1,:))))))/(dim(1)*dim(2));
+    disp(<span class="string">"The difference between edge image calculated by matlab and FPFA's output on average is "</span>+diff+<span class="string">" (full range is 0 to 255) per each pixel."</span>);
+<span class="keyword">end</span>
+<span class="keyword">if</span> isequal(avg_img(:,:,:),smoothed_img(2:dim(1)-1,2:dim(2)-1,:))
+    disp(<span class="string">"The smoothed image calculated by matlab is equal to FPGA's output."</span>);
+<span class="keyword">else</span>
+    diff=sum(sum(sum(abs(double(avg_img(:,:,:))-double(smoothed_img(2:dim(1)-1,2:dim(2)-1,:))))))/(dim(1)*dim(2));
+    disp(<span class="string">"The difference between smoothed image calculated by matlab and FPFA's output on average is "</span>+diff+<span class="string">" (full range is 0 to 255) per each pixel."</span>);
+<span class="keyword">end</span>
+</pre><pre class="codeoutput">The edge image calculated by matlab is equal to FPGA's output.
+The difference between smoothed image calculated by matlab and FPFA's output on average is 1.3247 (full range is 0 to 255) per each pixel.
+</pre><img vspace="5" hspace="5" src="test1_01.png" alt=""> <img vspace="5" hspace="5" src="test1_02.png" alt=""> <img vspace="5" hspace="5" src="test1_03.png" alt=""> <img vspace="5" hspace="5" src="test1_04.png" alt=""> <img vspace="5" hspace="5" src="test1_05.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+clear
+clc
+clf
+img = imread('photo1.jpg');
+imshow(img)
+title('original image')
+smoothed_img=avgfilt(img);
+figure()
+imshow(smoothed_img)
+title('smoothed image');
+figure()
+edge_img_mat=edgefilt(img);
+imshow(edge_img_mat)
+title('edge of original image');
+dim=size(img);
+R=reshape((img(:,:,1))',dim(1)*dim(2),1);
+G=reshape((img(:,:,2))',dim(1)*dim(2),1);
+B=reshape((img(:,:,3))',dim(1)*dim(2),1);
+dlmwrite('R_input_vector.txt',R)
+dlmwrite('G_input_vector.txt',G)
+dlmwrite('B_input_vector.txt',B)
+figure()
+R_avg=[dlmread('R_output_vector_avgfilt.txt');0];
+G_avg=[dlmread('G_output_vector_avgfilt.txt');0];
+B_avg=[dlmread('B_output_vector_avgfilt.txt');0];
+R_edge=[dlmread('R_output_vector_edgefilt.txt');0];
+G_edge=[dlmread('G_output_vector_edgefilt.txt');0];
+B_edge=[dlmread('B_output_vector_edgefilt.txt');0];
+R_avg=(reshape(R_avg,603,317))';%REPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASH- image size is (319,605,3)
+G_avg=(reshape(G_avg,603,317))';
+B_avg=(reshape(B_avg,603,317))';
+R_edge=(reshape(R_edge,603,317))';
+G_edge=(reshape(G_edge,603,317))';
+B_edge=(reshape(B_edge,603,317))';
+avg_img=zeros(317,603,3);
+edge_img=zeros(317,603,3);
+avg_img(:,:,1)=R_avg;
+avg_img(:,:,2)=G_avg;
+avg_img(:,:,3)=B_avg;
+edge_img(:,:,1)=R_edge;
+edge_img(:,:,2)=G_edge;
+edge_img(:,:,3)=B_edge;
+avg_img=uint8(avg_img);
+edge_img=uint8(edge_img);
+imshow(avg_img)
+title('smoothed image - processed by FPGA');
+figure()
+imshow(edge_img)
+title('edge of original image - processed by FPGA')
+if isequal(edge_img(:,:,:),edge_img_mat(2:dim(1)-1,2:dim(2)-1,:))
+    disp("The edge image calculated by matlab is equal to FPGA's output.");
+else
+    diff=sum(sum(sum(abs(double(edge_img(:,:,:))-double(edge_img_mat(2:dim(1)-1,2:dim(2)-1,:))))))/(dim(1)*dim(2));
+    disp("The difference between edge image calculated by matlab and FPFA's output on average is "+diff+" (full range is 0 to 255) per each pixel.");
+end
+if isequal(avg_img(:,:,:),smoothed_img(2:dim(1)-1,2:dim(2)-1,:))
+    disp("The smoothed image calculated by matlab is equal to FPGA's output.");
+else
+    diff=sum(sum(sum(abs(double(avg_img(:,:,:))-double(smoothed_img(2:dim(1)-1,2:dim(2)-1,:))))))/(dim(1)*dim(2));
+    disp("The difference between smoothed image calculated by matlab and FPFA's output on average is "+diff+" (full range is 0 to 255) per each pixel.");
+end
+##### SOURCE END #####
+--></body></html>
