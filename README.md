@@ -191,3 +191,22 @@ Analysis and classification of EEG biomedical signals using MATLAB, signal prepr
 
 This project focuses on processing EEG signals from two classes (A and B), extracting statistical and frequency-domain features, and evaluating their ability to separate different mental states.
 
+### 26. Digital Image Processing: Enhancement, Filtering, Segmentation, and Registration
+
+Implementation of digital image processing algorithms using Python and computer vision techniques for image analysis and enhancement.
+
+This project covers fundamental and advanced image processing tasks, including image transformations, histogram analysis, spatial and frequency-domain filtering, image restoration, segmentation, and image registration.
+
+Main components:
+- Image reading and analysis
+- Histogram computation and matching
+- Bit-plane slicing
+- Intensity transformations
+- Spatial filtering and noise reduction
+- Frequency-domain processing using Fourier Transform
+- Image restoration techniques
+- Morphological image processing
+- Image segmentation using Split and Merge
+- Feature-based image registration
+- Motion and object detection
+- OpenCV-based image processing
