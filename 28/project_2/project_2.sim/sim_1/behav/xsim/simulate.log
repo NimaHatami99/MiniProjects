@@ -1,0 +1,5 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Failure: Simulation Completed
+Time: 380 ns  Iteration: 3  Process: /freq_divider_tb/line__58  File: E:/terme 7/FPGA/HW/3/9633022_HW3/project_2/project_2.srcs/sim_1/new/freq_divider_tb.vhd
+$finish called at time : 380 ns : File "E:/terme 7/FPGA/HW/3/9633022_HW3/project_2/project_2.srcs/sim_1/new/freq_divider_tb.vhd" Line 77
