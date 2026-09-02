@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jan 13 11:26:21 2021
+# Process ID: 62968
+# Current directory: E:/terme 7/FPGA/HW/3/9633022_HW3/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent57488 E:\terme 7\FPGA\HW\3\9633022_HW3\project_1\project_1.xpr
+# Log file: E:/terme 7/FPGA/HW/3/9633022_HW3/project_1/vivado.log
+# Journal file: E:/terme 7/FPGA/HW/3/9633022_HW3/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/terme 7/FPGA/HW/3/9633022_HW3/project_1/project_1.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/terme 7/FPGA/HW/3/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 739.707 ; gain = 141.234
+update_compile_order -fileset sources_1
+close_project
+open_project {E:/terme 7/FPGA/HW/4/9633022_HW4/project_1/project_1.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project {E:/terme 7/FPGA/HW/3/9633022_HW3/project_2/project_2.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/terme 7/FPGA/HW/3/project_2' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/terme 7/FPGA/HW/3/9633022_HW3/project_2/project_2.srcs/sources_1/new/ALU88.vhd', nor could it be found using path 'E:/terme 7/FPGA/HW/3/project_2/project_2.srcs/sources_1/new/ALU88.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 13 13:42:33 2021...
