@@ -301,3 +301,9 @@ Design and simulation of a low-dropout voltage regulator with a custom operation
 
 This project focuses on designing an LDO voltage regulator capable of generating a stable 3V output with low voltage error under varying input voltages and load conditions. The design includes a feedback control loop, custom operational amplifier, pass transistor stage, and performance evaluation through circuit simulations.
 
+### 33. Four-Bit Serial Adder Design Using Verilog
+
+Design and simulation of a digital hardware system implementing a four-bit serial adder with priority-based control and input selection using Verilog HDL.
+
+This project focuses on designing modular digital circuits and integrating them into a complete system. The design includes a four-bit serial adder, a controller module for request prioritization, and an input selector that manages access to the adder based on control signals.
+
