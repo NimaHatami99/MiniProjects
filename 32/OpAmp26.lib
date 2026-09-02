@@ -1,0 +1,30 @@
+* C:\Users\NIMA\Documents\LTspiceXVII\OpAmp26.asc
+* Pinout: Vi+ Vi- VDD VSS Vout
+*.SUBCKT OpAmp26_ForLab 5 4 1 6 3
+.SUBCKT OpAmp26 Vi+ Vi- VDD VSS Vout
+Mn1 Y Vi- X X nch l='Ln1' w='Wn1' m=1
+Mb1 X Vb VSS VSS nch l='Lb0' w='Wb0' m=1
+Mn2 Z Vi+ X X nch l='Ln1' w='Wn1' m=1
+Mp1 Y Y VDD VDD pch l='Lp1' w='Wp1' m=1
+Mp2 Z Y VDD VDD pch l='Lp1' w='Wp1' m=1
+Rref1 VDD Vb 44k
+Mb2 Vb Vb VSS VSS nch l='Lb0' w='Wb0' m=1
+Mb3 Vout Vb VSS VSS nch l='Lb0' w='Wb0' m=2
+Mp3 Vout Z VDD VDD pch l='Lp1' w='Wp1' m=10
+Ccomp Z N001 50p
+Rcomp N001 Vout 100
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\NIMA\Documents\LTspiceXVII\lib\cmp\standard.mos
+.param Ln1=1u
+.param Wn1=16u
+.param Lb0=1u
+.param Wb0=5u
+.param Wp1=4u
+.param Lp1=1u
+* +
+* _
+.MODEL nch NMOS (LEVEL=1 VTO=0.5 UO=350 LAMBDA=0.1 TOX=2.4E-9)
+.MODEL pch PMOS (LEVEL=1 VTO=-0.6 UO=140 LAMBDA=0.1 TOX=2.4E-9)
+.backanno
+.end
