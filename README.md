@@ -247,3 +247,9 @@ Main components:
 - Reset and control signal handling
 - Simulation and testbench verification
 
+### 29. ECG Signal Acquisition Circuit Design and PCB Implementation
+
+Design and simulation of an analog front-end circuit for ECG signal acquisition using operational amplifiers, filters, and instrumentation amplifiers.
+
+This project focuses on designing a one-lead ECG measurement system and implementing the complete analog signal conditioning chain. The circuit includes instrumentation amplification, high-pass and low-pass filtering, notch filtering for power-line noise removal, and right-leg drive circuitry for improved common-mode interference rejection.
+
