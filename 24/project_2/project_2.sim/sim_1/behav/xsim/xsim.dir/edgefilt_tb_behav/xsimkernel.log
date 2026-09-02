@@ -1,0 +1,7 @@
+Running: xsim.dir/edgefilt_tb_behav/xsimk.exe -simmode gui -wdb edgefilt_tb_behav.wdb -simrunnum 0 -socket 61670
+Design successfully loaded
+Design Loading Memory Usage: 5476 KB (Peak: 5476 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 14260 KB (Peak: 14260 KB)
+Simulation CPU Usage: 2046 ms
