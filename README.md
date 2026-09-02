@@ -210,3 +210,23 @@ Main components:
 - Feature-based image registration
 - Motion and object detection
 - OpenCV-based image processing
+
+### 27. FPGA-Based Simple CPU Design Using VHDL
+
+Implementation and simulation of a simple CPU architecture using VHDL with custom registers, memory, control logic, and instruction execution.
+
+This project focuses on designing a basic processor consisting of essential CPU components such as Accumulator (ACC), Memory Address Register (MAR), Memory Data Register (MDR), Program Counter (PC), and a control unit. The system implements instruction decoding, memory communication, and sequential execution using a finite state machine.
+
+Main components:
+- FPGA-based CPU design
+- VHDL hardware description
+- Register-level architecture
+- Accumulator (ACC) implementation
+- Memory Address Register (MAR)
+- Memory Data Register (MDR)
+- Program Counter (PC)
+- Control unit and FSM design
+- Instruction decoding and execution
+- Memory interface design
+- VHDL simulation and testbench verification
+
