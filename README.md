@@ -170,3 +170,18 @@ Implementation and simulation of a single-stage CMOS amplifier design based on g
 
 The project focuses on transistor-level amplifier design in 90 nm CMOS technology, including analytical design, circuit simulation, and performance evaluation. The design is optimized to satisfy requirements such as DC gain, output voltage swing, CMRR, settling time, load driving capability, and low power consumption.
 
+### 24. FPGA-Based Image Processing Filters
+
+Implementation of hardware image processing filters using FPGA and VHDL for real-time image enhancement and edge detection.
+
+The project designs and evaluates FPGA-based 3×3 image filters, including an average filter for image smoothing and an edge detection filter using the Laplacian operator. The workflow includes MATLAB-based image processing analysis, VHDL hardware implementation, testbench simulation, and comparison between software and FPGA outputs.
+
+Key concepts:
+- FPGA image processing
+- VHDL hardware design
+- Digital filters
+- Average smoothing filter
+- Edge detection filter
+- Laplacian operator
+- Hardware simulation and verification
+
