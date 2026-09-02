@@ -185,3 +185,9 @@ Key concepts:
 - Laplacian operator
 - Hardware simulation and verification
 
+### 25. EEG Signal Feature Extraction and Classification
+
+Analysis and classification of EEG biomedical signals using MATLAB, signal preprocessing, feature extraction, KNN classification, and K-means clustering.
+
+This project focuses on processing EEG signals from two classes (A and B), extracting statistical and frequency-domain features, and evaluating their ability to separate different mental states.
+
