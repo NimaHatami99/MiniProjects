@@ -143,3 +143,9 @@ Collection of machine learning projects focused on classification using K-Neares
 
 The folder includes handwritten digit recognition, Iris flower classification, and cancer risk prediction projects. The implementations cover data preprocessing, feature scaling, KNN model training, hyperparameter selection, cross-validation, and classification performance evaluation.
 
+### 21. Regression and Machine Learning Applications
+
+Collection of machine learning projects focused on regression modeling, data preprocessing, and predictive analytics.
+
+The folder includes laptop price prediction, air quality prediction, and a domain-specific machine learning application using real-world datasets. The implementations cover data cleaning, feature engineering, visualization, feature scaling, regression model training, hyperparameter tuning, and model evaluation using regression metrics.
+
