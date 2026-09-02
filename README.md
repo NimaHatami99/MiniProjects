@@ -164,3 +164,9 @@ Key concepts:
 - Transfer learning
 - Model evaluation
 
+### 23. CMOS Amplifier Design and Simulation
+
+Implementation and simulation of a single-stage CMOS amplifier design based on given analog circuit specifications.
+
+The project focuses on transistor-level amplifier design in 90 nm CMOS technology, including analytical design, circuit simulation, and performance evaluation. The design is optimized to satisfy requirements such as DC gain, output voltage swing, CMRR, settling time, load driving capability, and low power consumption.
+
