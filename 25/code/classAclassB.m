@@ -1,0 +1,50 @@
+clear
+clc
+%clf
+fnA1="E:\terme 7\BSP\project1\classA\S001R01.edf";
+fnA2="E:\terme 7\BSP\project1\classA\S002R01.edf";
+fnA3="E:\terme 7\BSP\project1\classA\S003R01.edf";
+fnA4="E:\terme 7\BSP\project1\classA\S004R01.edf";
+fnA5="E:\terme 7\BSP\project1\classA\S005R01.edf";
+fnA6="E:\terme 7\BSP\project1\classA\S006R01.edf";
+fnA7="E:\terme 7\BSP\project1\classA\S007R01.edf";
+fnA8="E:\terme 7\BSP\project1\classA\S008R01.edf";
+fnA9="E:\terme 7\BSP\project1\classA\S009R01.edf";
+fnA10="E:\terme 7\BSP\project1\classA\S010R01.edf";
+fnB1="E:\terme 7\BSP\project1\classB\S001R04.edf";
+fnB2="E:\terme 7\BSP\project1\classB\S002R04.edf";
+fnB3="E:\terme 7\BSP\project1\classB\S003R04.edf";
+fnB4="E:\terme 7\BSP\project1\classB\S004R04.edf";
+fnB5="E:\terme 7\BSP\project1\classB\S005R04.edf";
+fnB6="E:\terme 7\BSP\project1\classB\S006R04.edf";
+fnB7="E:\terme 7\BSP\project1\classB\S007R04.edf";
+fnB8="E:\terme 7\BSP\project1\classB\S008R04.edf";
+fnB9="E:\terme 7\BSP\project1\classB\S009R04.edf";
+fnB10="E:\terme 7\BSP\project1\classB\S010R04.edf";
+[hdr , recordA1]=edfread(fnA1);
+[hdr , recordA2]=edfread(fnA2);
+[hdr , recordA3]=edfread(fnA3);
+[hdr , recordA4]=edfread(fnA4);
+[hdr , recordA5]=edfread(fnA5);
+[hdr , recordA6]=edfread(fnA6);
+[hdr , recordA7]=edfread(fnA7);
+[hdr , recordA8]=edfread(fnA8);
+[hdr , recordA9]=edfread(fnA9);
+[hdr , recordA10]=edfread(fnA10);
+[hdr , recordB1]=edfread(fnB1);
+[hdr , recordB2]=edfread(fnB2);
+[hdr , recordB3]=edfread(fnB3);
+[hdr , recordB4]=edfread(fnB4);
+[hdr , recordB5]=edfread(fnB5);
+[hdr , recordB6]=edfread(fnB6);
+[hdr , recordB7]=edfread(fnB7);
+[hdr , recordB8]=edfread(fnB8);
+[hdr , recordB9]=edfread(fnB9);
+[hdr , recordB10]=edfread(fnB10);
+classA=[recordA1(1,:);recordA2(1,:);recordA3(1,:);recordA4(1,:);recordA5(1,:);recordA6(1,:);recordA7(1,:);recordA8(1,:);recordA9(1,:);recordA10(1,:)];
+classB=[recordB1(1,1:19680);recordB2(1,:);recordB3(1,1:19680);recordB4(1,:);recordB5(1,:);recordB6(1,:);recordB7(1,1:19680);recordB8(1,:);recordB9(1,:);recordB10(1,:)];
+%plot(recordB6(65,:));
+%eeg = record(1:64,:);
+%plot(eeg(48,:));
+%title("original signal : channel 48");
+%grid
