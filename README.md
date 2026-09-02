@@ -137,3 +137,9 @@ Collection of machine learning projects focused on classification using decision
 
 The folder includes projects covering student performance prediction, Titanic survival analysis, and data science salary prediction. The implementations involve data preprocessing, feature engineering, decision tree modeling, hyperparameter tuning, pruning, visualization, and hybrid ensemble approaches.
 
+### 20. KNN Classification and Data Preprocessing Projects
+
+Collection of machine learning projects focused on classification using K-Nearest Neighbors (KNN) and data preprocessing techniques.
+
+The folder includes handwritten digit recognition, Iris flower classification, and cancer risk prediction projects. The implementations cover data preprocessing, feature scaling, KNN model training, hyperparameter selection, cross-validation, and classification performance evaluation.
+
