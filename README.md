@@ -270,3 +270,28 @@ Main components:
 - Proteus circuit simulation
 - Hex file generation and testing
 
+### 31. Human Sway Control System Design and Analysis
+
+Modeling, analysis, and controller design of a human postural sway control system using MATLAB and Simulink.
+
+This project focuses on the development and evaluation of feedback control strategies for a human sway system. The system models the relationship between applied galvanic stimulation and human pitch angle response, followed by stability analysis and controller design.
+
+Main components:
+- Human sway dynamic system modeling
+- Transfer function analysis
+- Open-loop pole and zero analysis
+- Step response evaluation
+- Second-order system approximation
+- State-space representation
+- Proportional controller design
+- Routh stability analysis
+- Root locus analysis
+- On-off relay controller with hysteresis
+- PID controller tuning using Ziegler–Nichols methods
+- Lead and lag compensator design
+- Pole assignment controller design
+- Disturbance rejection analysis
+- Bode, Nyquist, and Nichols diagrams
+- Time-delay system analysis
+- MATLAB and Simulink-based control system simulation
+
