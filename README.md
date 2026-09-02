@@ -125,3 +125,9 @@ Implementation of an image denoising system for restoring corrupted handwritten 
 
 The project generates noisy training data from the MNIST dataset and develops a model to learn the mapping between noisy and clean digit images. The workflow includes noise generation, data preparation, model training, image reconstruction, and qualitative evaluation through visual comparison of noisy and denoised samples.
 
+### 18. Persian Sentiment Analysis Using Naive Bayes
+
+Implementation of a Persian text classification system for sentiment analysis of user reviews using a Naive Bayes classifier.
+
+The project analyzes Snappfood user comments and classifies them into positive and negative sentiment categories. The workflow includes Persian text preprocessing, feature extraction, building a Naive Bayes model from scratch, training on labeled reviews, and evaluating classification performance on test data.
+
