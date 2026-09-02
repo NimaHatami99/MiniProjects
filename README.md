@@ -155,3 +155,12 @@ Implementation of a deep learning-based image classification system for detectin
 
 The project converts malware bytecode and disassembly representations into grayscale images and trains a CNN model to classify samples into multiple malware categories. The workflow includes model design, hyperparameter tuning, learning rate optimization, regularization techniques, early stopping, dropout, batch normalization, and transfer learning using pretrained networks.
 
+Key concepts:
+- Convolutional Neural Networks (CNN)
+- Malware image classification
+- Deep learning optimization
+- Hyperparameter tuning
+- Regularization techniques
+- Transfer learning
+- Model evaluation
+
