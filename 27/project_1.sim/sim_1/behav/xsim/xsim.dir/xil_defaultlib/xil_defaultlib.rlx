@@ -1,0 +1,10 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+E:/terme 7/FPGA/HW/4/9633022_HW4/project_1/project_1.srcs/sim_1/new/ACC_tb.vhd,1607545353,vhdl,,,,acc_tb,,,,,,,,
+E:/terme 7/FPGA/HW/4/9633022_HW4/project_1/project_1.srcs/sim_1/new/MDR_tb.vhd,1607323498,vhdl,,,,mdr_tb,,,,,,,,
+E:/terme 7/FPGA/HW/4/9633022_HW4/project_1/project_1.srcs/sim_1/new/testbench2.vhd,1608628720,vhdl,,,,testbench2,,,,,,,,
+E:/terme 7/FPGA/HW/4/9633022_HW4/project_1/project_1.srcs/sources_1/new/ACC.vhd,1607545045,vhdl,E:/terme 7/FPGA/HW/4/9633022_HW4/project_1/project_1.srcs/sim_1/new/ACC_tb.vhd,,,acc,,,,,,,,
+E:/terme 7/FPGA/HW/4/9633022_HW4/project_1/project_1.srcs/sources_1/new/CPU.vhd,1608627587,vhdl,,,,cpu,,,,,,,,
+E:/terme 7/FPGA/HW/4/9633022_HW4/project_1/project_1.srcs/sources_1/new/MDR.vhd,1607920870,vhdl,E:/terme 7/FPGA/HW/4/9633022_HW4/project_1/project_1.srcs/sim_1/new/MDR_tb.vhd,,,memory,,,,,,,,

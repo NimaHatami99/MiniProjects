@@ -1,0 +1,5 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Failure: simulation completed
+Time: 38 us  Iteration: 1  Process: /testbench2/line__87  File: E:/terme 7/FPGA/HW/4/9633022_HW4/project_1/project_1.srcs/sim_1/new/testbench2.vhd
+$finish called at time : 38 us : File "E:/terme 7/FPGA/HW/4/9633022_HW4/project_1/project_1.srcs/sim_1/new/testbench2.vhd" Line 101
