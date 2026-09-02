@@ -1,0 +1,5 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Failure: Simulation Completed
+Time: 1102 us  Iteration: 1  Process: /accumulator_tb/line__62  File: E:/terme 7/FPGA/HW/3/9633022_HW3/project_1/project_1.srcs/sim_1/new/accumulator_tb.vhd
+$finish called at time : 1102 us : File "E:/terme 7/FPGA/HW/3/9633022_HW3/project_1/project_1.srcs/sim_1/new/accumulator_tb.vhd" Line 194
