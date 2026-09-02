@@ -307,3 +307,9 @@ Design and simulation of a digital hardware system implementing a four-bit seria
 
 This project focuses on designing modular digital circuits and integrating them into a complete system. The design includes a four-bit serial adder, a controller module for request prioritization, and an input selector that manages access to the adder based on control signals.
 
+### 34. Hodgkin–Huxley Neuron Model Simulation and Analysis
+
+Numerical simulation and analysis of neuronal action potentials using the Hodgkin–Huxley mathematical model in MATLAB.
+
+This project focuses on modeling the electrical behavior of a cell membrane by solving the Hodgkin–Huxley differential equations numerically. The effects of external current stimulation, refractory behavior, and different stimulus waveforms are investigated through membrane voltage, ion conductance, and gating variable analysis.
+
