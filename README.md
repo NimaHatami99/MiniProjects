@@ -230,3 +230,20 @@ Main components:
 - Memory interface design
 - VHDL simulation and testbench verification
 
+### 28. FPGA Arithmetic Circuits and Signal Processing Modules
+
+Implementation and simulation of arithmetic and timing-based digital circuits using VHDL for FPGA platforms.
+
+This project includes the design of an accumulator-based numerical integration circuit and a configurable clock frequency divider. The implementations focus on sequential circuit design, arithmetic operations, clock management, and verification through VHDL testbenches.
+
+Main components:
+- FPGA-based sequential circuit design
+- Accumulator architecture
+- Numerical integration using discrete approximation
+- Arithmetic modules (adder/subtractor)
+- Divider circuits
+- Clock frequency division
+- Generic parameterized VHDL design
+- Reset and control signal handling
+- Simulation and testbench verification
+
