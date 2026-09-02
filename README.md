@@ -149,3 +149,9 @@ Collection of machine learning projects focused on regression modeling, data pre
 
 The folder includes laptop price prediction, air quality prediction, and a domain-specific machine learning application using real-world datasets. The implementations cover data cleaning, feature engineering, visualization, feature scaling, regression model training, hyperparameter tuning, and model evaluation using regression metrics.
 
+### 22. Malware Classification Using CNN
+
+Implementation of a deep learning-based image classification system for detecting malware families using Convolutional Neural Networks.
+
+The project converts malware bytecode and disassembly representations into grayscale images and trains a CNN model to classify samples into multiple malware categories. The workflow includes model design, hyperparameter tuning, learning rate optimization, regularization techniques, early stopping, dropout, batch normalization, and transfer learning using pretrained networks.
+
